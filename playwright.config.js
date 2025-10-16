@@ -8,7 +8,7 @@ module.exports = {
   reporter: [['html', { open: 'never' }], ['list']],
   use: {
     headless: false,
-    slowMo: 200,
+    slowMo: 1000,      
     screenshot: 'only-on-failure',
     video: 'retain-on-failure',
     baseURL: 'https://www.saucedemo.com',
